@@ -8,3 +8,4 @@ const Square = ({ player, click }) => {
     </button>
   );
 };
+export default Square;

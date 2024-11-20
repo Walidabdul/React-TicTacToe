@@ -15,3 +15,4 @@ const GameGrid = ({ moves, click }) => {
     </div>
   );
 };
+export default GameGrid;
