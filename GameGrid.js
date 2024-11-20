@@ -1,6 +1,6 @@
 import React from 'react';
-import Square from 'Square';
-import 'styles.css';
+import Square from './Square';
+import './styles.css';
 
 const GameGrid = ({ moves, click }) => {
   return (

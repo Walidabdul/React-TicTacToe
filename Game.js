@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import GameGrid from 'GameGrid';
-import 'styles.css';
+import GameGrid from './GameGrid';
+import './styles.css';
 
 const Game = () => {
   const [moves, setMoves] = useState(Array(9).fill(""));
